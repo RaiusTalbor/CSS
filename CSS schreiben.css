@@ -1,0 +1,122 @@
+/*CSS*/
+
+* {
+    background: #5778E8;
+    font-family: Cooperplate Gothic Light, sans-serif;
+}
+
+body {
+    background: #5778E8;
+
+    width: 90%;
+
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/*Und dann einfach alle Container aufzählen*/
+
+h1 {
+   text-align: center;
+   color: #F2DF1F;
+   background: #5778E8;
+
+   font-size: 60px;
+   font-family: Franklin Gothic Medium, sans-serif;
+
+   text-decoration: underline;
+
+   border: solid 5px;
+   border-radius: 10px;
+}
+
+/*Links*/
+a:link {
+   color: #400000;
+   text-decoration: underline;
+}
+
+a:visited {
+   color: #222222;
+   text-decoration: underline;
+}
+
+a:hover {
+   font-size: 1.03em;
+}
+
+/*Tabellen*/
+table {
+   color: black;
+   border: solid black 3px;
+
+   margin: 0 auto; /*Rand*/
+   margin-top: 40px;
+   margin-bottom: 30px;
+}
+
+td {
+   border: solid black 2px;
+
+   text-align: left;
+}
+
+/*Verschachtelt*/
+ol ul {
+    /*Attributet*/
+}
+
+/*Klassen, um separat ansprechen*/
+.ohneRahmen {
+   border: none;
+
+   color: #F2DF1F;
+   background: #5778E8;
+
+   font-size: 30px;
+
+   text-decoration: underline;
+
+   text-align: center;
+
+   /*STARTSEITE*/
+}
+
+.Button:link, .Button:visited {
+   color: #400000;
+   background: #F2DF1F;
+
+   padding: 5px 5px 5px 6px;
+
+   text-align: center;
+   text-decoration: none;
+
+   display: inline-block;
+
+   border: solid 5px black;
+}
+
+.Button:hover {
+   color: #F2DF1F; /*einfach umgekehrt*/
+   background: #400000;
+
+   font-size: 1.3em;
+}
+
+.Erklaerung:hover {
+
+   color: #F2DF1F;
+   background: #400000;
+
+   font-size: 1.03em;
+}
+
+/*float f�r Verbesserung Performance auf kleinen Bildschirmen?*/
+
+/*Variablen*/
+:root {/*Überall zugänglich*/
+    --blue: #1e90ff;
+    --white: #ffffff;
+  }
+  
+  body { background-color: var(--blue); }
